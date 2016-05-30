@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		644DD51A1CE2F60700A69FF5 /* AlipaySDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 644DD5191CE2F60700A69FF5 /* AlipaySDK */; };
+		64971CAE1CE1BB7300BCD91E /* AlipayModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64971CAD1CE1BB7300BCD91E /* AlipayModule.h */; };
+		64971CB01CE1BB7300BCD91E /* AlipayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 64971CAF1CE1BB7300BCD91E /* AlipayModule.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		64971CA81CE1BB7300BCD91E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				64971CAE1CE1BB7300BCD91E /* AlipayModule.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		644DD5191CE2F60700A69FF5 /* AlipaySDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = AlipaySDK; path = "$(SRCROOT)/AlipaySDK.framework/AlipaySDK"; sourceTree = "<group>"; };
+		64971CAA1CE1BB7300BCD91E /* libAlipayModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlipayModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64971CAD1CE1BB7300BCD91E /* AlipayModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlipayModule.h; sourceTree = "<group>"; };
+		64971CAF1CE1BB7300BCD91E /* AlipayModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayModule.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64971CA71CE1BB7300BCD91E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644DD51A1CE2F60700A69FF5 /* AlipaySDK in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644DD51B1CE2F62200A69FF5 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				644DD5191CE2F60700A69FF5 /* AlipaySDK */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		64971CA11CE1BB7200BCD91E = {
+			isa = PBXGroup;
+			children = (
+				644DD51B1CE2F62200A69FF5 /* Libraries */,
+				64971CAC1CE1BB7300BCD91E /* AlipayModule */,
+				64971CAB1CE1BB7300BCD91E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64971CAB1CE1BB7300BCD91E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64971CAA1CE1BB7300BCD91E /* libAlipayModule.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64971CAC1CE1BB7300BCD91E /* AlipayModule */ = {
+			isa = PBXGroup;
+			children = (
+				64971CAD1CE1BB7300BCD91E /* AlipayModule.h */,
+				64971CAF1CE1BB7300BCD91E /* AlipayModule.m */,
+			);
+			path = AlipayModule;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64971CA91CE1BB7300BCD91E /* AlipayModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64971CB31CE1BB7300BCD91E /* Build configuration list for PBXNativeTarget "AlipayModule" */;
+			buildPhases = (
+				64971CA61CE1BB7300BCD91E /* Sources */,
+				64971CA71CE1BB7300BCD91E /* Frameworks */,
+				64971CA81CE1BB7300BCD91E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlipayModule;
+			productName = AlipayModule;
+			productReference = 64971CAA1CE1BB7300BCD91E /* libAlipayModule.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64971CA21CE1BB7200BCD91E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Johnny iDay";
+				TargetAttributes = {
+					64971CA91CE1BB7300BCD91E = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 64971CA51CE1BB7200BCD91E /* Build configuration list for PBXProject "AlipayModule" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64971CA11CE1BB7200BCD91E;
+			productRefGroup = 64971CAB1CE1BB7300BCD91E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64971CA91CE1BB7300BCD91E /* AlipayModule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64971CA61CE1BB7300BCD91E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64971CB01CE1BB7300BCD91E /* AlipayModule.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64971CB11CE1BB7300BCD91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64971CB21CE1BB7300BCD91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64971CB41CE1BB7300BCD91E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/../../react-native/React/**",
+					"$(inherited)",
+					"${SRCROOT}/../../React/**",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		64971CB51CE1BB7300BCD91E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"${SRCROOT}/../../react-native/React/**",
+					"$(inherited)",
+					"${SRCROOT}/../../React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64971CA51CE1BB7200BCD91E /* Build configuration list for PBXProject "AlipayModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64971CB11CE1BB7300BCD91E /* Debug */,
+				64971CB21CE1BB7300BCD91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64971CB31CE1BB7300BCD91E /* Build configuration list for PBXNativeTarget "AlipayModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64971CB41CE1BB7300BCD91E /* Debug */,
+				64971CB51CE1BB7300BCD91E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64971CA21CE1BB7200BCD91E /* Project object */;
+}
