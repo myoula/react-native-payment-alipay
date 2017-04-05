@@ -1,0 +1,30 @@
+{
+  "name": "react-native-yunpeng-alipay",
+  "version": "1.1.5",
+  "description": "React Native Module for alipay.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/myoula/react-native-payment-alipay.git"
+  },
+  "keywords": [
+    "alipay",
+    "react",
+    "react-native",
+    "react-component",
+    "ios",
+    "android"
+  ],
+  "peerDependencies": {
+    "react-native": ">=0.40"
+  },
+  "author": "m2mbob <2844870322@qq.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/myoula/react-native-payment-alipay/issues"
+  },
+  "homepage": "https://github.com/myoula/react-native-payment-alipay#readme"
+}
