@@ -7,7 +7,6 @@
 //
 
 #import "AlipayModule.h"
-#import <AlipaySDK/AlipaySDK.h>
 
 static RCTPromiseResolveBlock _resolve;
 static RCTPromiseRejectBlock _reject;

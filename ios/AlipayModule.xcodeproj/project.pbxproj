@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		644DD51A1CE2F60700A69FF5 /* AlipaySDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 644DD5191CE2F60700A69FF5 /* AlipaySDK */; };
+		182D14511F53F645008626E0 /* AlipaySDK in Frameworks */ = {isa = PBXBuildFile; fileRef = 182D14501F53F645008626E0 /* AlipaySDK */; };
 		64971CAE1CE1BB7300BCD91E /* AlipayModule.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 64971CAD1CE1BB7300BCD91E /* AlipayModule.h */; };
 		64971CB01CE1BB7300BCD91E /* AlipayModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 64971CAF1CE1BB7300BCD91E /* AlipayModule.m */; };
 /* End PBXBuildFile section */
@@ -26,6 +26,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		182D14501F53F645008626E0 /* AlipaySDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = AlipaySDK; path = AlipaySDK.framework/AlipaySDK; sourceTree = "<group>"; };
 		644DD5191CE2F60700A69FF5 /* AlipaySDK */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.objfile"; name = AlipaySDK; path = "$(SRCROOT)/AlipaySDK.framework/AlipaySDK"; sourceTree = "<group>"; };
 		64971CAA1CE1BB7300BCD91E /* libAlipayModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAlipayModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		64971CAD1CE1BB7300BCD91E /* AlipayModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlipayModule.h; sourceTree = "<group>"; };
@@ -37,13 +38,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				644DD51A1CE2F60700A69FF5 /* AlipaySDK in Frameworks */,
+				182D14511F53F645008626E0 /* AlipaySDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182D144F1F53F645008626E0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				182D14501F53F645008626E0 /* AlipaySDK */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		644DD51B1CE2F62200A69FF5 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +67,7 @@
 				644DD51B1CE2F62200A69FF5 /* Libraries */,
 				64971CAC1CE1BB7300BCD91E /* AlipayModule */,
 				64971CAB1CE1BB7300BCD91E /* Products */,
+				182D144F1F53F645008626E0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
